@@ -1,4 +1,3 @@
-# this is my zomato landing clone
+# this is my zomato landing clon
 
-
-this is clone
+# my name is sarthak dhanotiya what is your name bro
