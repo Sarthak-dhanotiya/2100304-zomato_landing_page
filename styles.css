@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   
+}
+
+
+.sectionn{
+    background-image: url(81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    min-height: 70vh;
+}
+
+
+.navbar{
+    display: flex;
+    gap: 14px;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    justify-content: space-between;
+    
+
+}
+
+a{
+    color: white;
+    font-size: 17px;
+
+}
+
+.division{
+    display: flex;
+    gap: 20px;
+    color: white;
+   
+}
+div a{
+   
+    color: white;
+    font-size: 19px;
+}
+
+
+.zomatologo{
+
+    font-size: small;
+
+}
+
+  img{
+    size: 45px;
+}
+
+span{
+    
+    color: white;
+    font-size: 30px;
+ padding: 0;
+ margin: -442px;
+
+}
