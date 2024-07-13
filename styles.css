@@ -7,7 +7,7 @@
 
 
 .sectionn{
-    background-image: url(81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-image: url(./image/81f3ff974d82520780078ba1cfbd453a1583259680.png);
     min-height: 70vh;
 }
 
@@ -42,21 +42,139 @@ div a{
 }
 
 
-.zomatologo{
 
-    font-size: small;
-
-}
 
   img{
     size: 45px;
+    
+  }
+
+  
+  div h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    gap: 12px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 520px;
+  }
+  .zomatologo{
+     width: 500px;
+     height: 15vh;
+  }
+
+
+  .container2{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+
+  .input,
+  .input1{
+    padding: 5px;
+    border: none;
+    outline: none;
+
+  }
+
+  .input{
+    
+    border-right: solid #e0e0e0;
+  }
+  .input1{
+    width: 65%;
+  }
+
+
+
+.section2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+    gap: 1px;
+    
+    
 }
 
-span{
+.section2division{
+  border-radius: 10px;
+gap: 14px;
+
+   
     
-    color: white;
-    font-size: 30px;
- padding: 0;
- margin: -442px;
+
+    
+}
+
+.section2division,img{
+    
+  
+  
+  
+    border-radius: 25px;
+
+  
+ height: 220px;
+   gap: 12px;
+
+    
+   
+    transition: all 1S ease-in-out;
+   
+ 
+
+}
+
+
+.section2heading {
+
+    padding: 10px;
+   
+    position: absolute;
+    margin: 0;
+
+    
+   
+  
+
+   
+}
+
+.section2heading h{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.section2heading p{
+    font-size: 15px;
+}
+.section2division:hover{
+    color:aqua;
+  
+    cursor: pointer;
+
+    
+transition: all 1s ease; 
+
+transform: scale(1.1);
+
+
 
 }
