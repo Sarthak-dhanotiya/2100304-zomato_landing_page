@@ -178,3 +178,237 @@ transform: scale(1.1);
 
 
 }
+
+
+
+
+
+/* section3 */
+
+ h1 {
+  font-weight: 400;
+
+
+
+  
+}
+
+.sub_heading_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
+
+
+ .collectioncard {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  height: 300px;
+  min-width: none;
+
+}
+
+.collectioncard .card{
+  height: 300px;
+  min-width: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+
+
+
+.card1{
+  background-image: url(./image/collection1.png);
+}
+
+.card2{
+  background-image: url(./image/collection2.png);
+}
+
+.card3{
+  background-image: url(./image/collection3.png);
+}
+
+.card4{
+  background-image: url(./image/collection4.png);
+}
+
+
+.content{
+    height: 300px;
+    padding: 14px 20px;
+    position: absolute;
+    top:240px;
+   
+    color: white;
+}
+
+.content h4{
+  font-weight: 400;
+  
+}
+
+
+/* this is for download app section */
+
+.appsection{
+  padding: 5%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: white;
+width: 100%;
+padding: 5rem,6rem;
+position: absolute;
+
+}
+
+.appsection .leftright{
+width: 60%;
+display: flex;
+align-items: center;
+  justify-content: center;
+ 
+  gap: 1.5rem;
+}
+
+
+.appsection .leftright .left{
+  flex: 4;
+}
+
+.appsection .leftright .left img{
+
+  object-fit: cover;
+  object-position: center;
+
+
+
+}
+
+.appsection .leftright .right{
+  height: 40%;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.right h2{
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.right p{
+  font-weight: 400;
+  
+}
+
+.right .button{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right .button div{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+.input_container{
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.input_container button, .input_container input{
+  padding: 4px;
+}
+
+
+
+
+.input_container input{
+
+  border: 1.5px solid gray;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+
+.input_container button{
+  border: none;
+  background-color: rgb(239,79,95);
+  color:  white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.right .downloadappfrom{
+  display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.right .downloadappfrom h3{
+  font-weight: 400;
+  color:grey;
+
+}
+
+.right .downloadappfrom .store{
+  display: flex;
+    gap: 1rem;
+
+}
+
+.right .downloadappfrom .store img{
+  width: 35%;
+  height: 50%;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .appsection .leftright .left, .appsection .leftright .right{
+      flex: 1;
+  }
+  .appsection .leftright{
+      width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .appsection {
+    padding: 2rem;
+  }
+  .appsection .leftright{
+      width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .appsection {
+    padding: 3rem;
+  }
+  .appsection .leftright{
+      width: 80%;
+      flex-direction: column;
+  }
+}
